@@ -569,7 +569,16 @@ a {
   flex-direction: column;
 }
 
-/* line 12, ../../../../../Users/devongillis/Projects/Websites/front-end-tech-04/scss/component/_navigation.scss */
+@media (min-width: 768px) {
+  /* line 5, ../../../../../Users/devongillis/Projects/Websites/front-end-tech-04/scss/component/_navigation.scss */
+  .nav {
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+  }
+}
+
+/* line 17, ../../../../../Users/devongillis/Projects/Websites/front-end-tech-04/scss/component/_navigation.scss */
 .nav-link {
   text-align: center;
   border-radius: 5px;
@@ -579,7 +588,14 @@ a {
   transition: background-color .2s ease-in-out,  color .2s ease-in-out;
 }
 
-/* line 23, ../../../../../Users/devongillis/Projects/Websites/front-end-tech-04/scss/component/_navigation.scss */
+@media (min-width: 768px) {
+  /* line 17, ../../../../../Users/devongillis/Projects/Websites/front-end-tech-04/scss/component/_navigation.scss */
+  .nav-link {
+    flex-basis: 100px;
+  }
+}
+
+/* line 31, ../../../../../Users/devongillis/Projects/Websites/front-end-tech-04/scss/component/_navigation.scss */
 .nav-link:hover {
   color: #fff;
   background-color: #58e1c1;
