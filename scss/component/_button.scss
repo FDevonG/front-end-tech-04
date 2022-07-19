@@ -10,6 +10,7 @@
   padding: 10px 0;
   text-transform: uppercase;
   border-radius: 5px;
+  transition: background-color .5s;
   @include mq{
     padding: 10px 30px;
     & + & {
@@ -20,20 +21,35 @@
 
 .default {
   background-color: $default-color;
+  &:hover{
+    background-color: lighten($default-color, 15%);
+  }
 }
 
 .error {
   background-color: $error-color;
+  &:hover{
+    background-color: lighten($error-color, 15%);
+  }
 }
 
 .info {
   background-color: $info-color;
+  &:hover{
+    background-color: lighten($info-color, 15%);
+  }
 }
 
 .success {
   background-color: $sucess-color;
+  &:hover{
+    background-color: lighten($sucess-color, 15%);
+  }
 }
 
 .warning {
   background-color: $warning-color;
+  &:hover{
+    background-color: lighten($warning-color, 15%);
+  }
 }

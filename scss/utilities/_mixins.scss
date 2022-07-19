@@ -9,6 +9,12 @@
 	justify-content: $just;
 }
 
+@mixin center{
+	display:block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
 @mixin mq {
 	@media(min-width:$breakpoint){
 		@content;
