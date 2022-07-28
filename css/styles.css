@@ -660,6 +660,11 @@ a {
 }
 
 /* line 9, ../../../../../Users/devongillis/Projects/Websites/front-end-tech-04/scss/component/_form.scss */
+fieldset {
+  border: none;
+}
+
+/* line 13, ../../../../../Users/devongillis/Projects/Websites/front-end-tech-04/scss/component/_form.scss */
 .input {
   display: block;
   width: 94%;
@@ -669,7 +674,7 @@ a {
   border-bottom: 5px solid #58e1c1;
 }
 
-/* line 18, ../../../../../Users/devongillis/Projects/Websites/front-end-tech-04/scss/component/_form.scss */
+/* line 22, ../../../../../Users/devongillis/Projects/Websites/front-end-tech-04/scss/component/_form.scss */
 .hidden {
   position: absolute;
   left: -10000px;
